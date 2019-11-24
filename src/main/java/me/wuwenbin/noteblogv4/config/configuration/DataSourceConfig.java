@@ -36,11 +36,11 @@ public class DataSourceConfig {
     @Bean
     public DataSource dataSource() {
         try {
-            String ip = env.getProperty("db.ip", "127.0.0.1");
+            String ip = env.getProperty("db.ip", "192.168.1.218");
             String port = env.getProperty("db.port", "3306");
             String name = env.getProperty("db.name", "noteblogv4");
             String user = env.getProperty("db.username", "root");
-            String pass = env.getProperty("db.password", "123456");
+            String pass = env.getProperty("db.password", "root");
             DruidDataSource druidDataSource = DruidDataSourceBuilder.create().build();
             String url = StrUtil.format("jdbc:mysql://{}:{}/{}?useUnicode=true&characterEncoding=UTF-8&useSSL=true", ip, port, name);
             druidDataSource.setUrl(url);

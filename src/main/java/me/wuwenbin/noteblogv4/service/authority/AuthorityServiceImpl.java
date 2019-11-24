@@ -64,7 +64,7 @@ public class AuthorityServiceImpl implements AuthorityService {
         if (masterRoleId == null) {
             throw new InitException("初始化权限系统出错，管理员角色未初始化！");
         }
-        String nickname = "nbv4_user";
+        String nickname = "肖冬";
         NBSysUser user = NBSysUser.builder()
                 .defaultRoleId(masterRoleId)
                 .nickname(nickname)

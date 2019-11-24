@@ -5,8 +5,8 @@
  * 如果您使用了此代码，请勿删除此头部注释
  * */
 var template = {
-    footer:
-        '<div class="layui-fluid bottom-nav">' +
+    footer:''
+        /*'<div class="layui-fluid bottom-nav">' +
         '   <div class="layui-row">' +
         '       <div class="layui-col-md4 layui-col-md-offset4 copyright">' +
         '           <p style="text-align: center;">' +
@@ -15,7 +15,7 @@ var template = {
         '           </p>' +
         '       </div>' +
         '   </div> ' +
-        '</div>'
+        '</div>'*/
     ,
     header:
         '<div class="header">' +
@@ -583,7 +583,7 @@ var template = {
         '          <a href="javascript:;" v-if="params.menu_search_show == 1">{{params.menu_search}}</a>' +
         '          <a href="/link" v-if="params.menu_link_show == 1">{{params.menu_link}}</a>' +
         '        </p>\n' +
-        '        <ul class="layui-timeline" style="margin-top: 10px;padding-top: 15px;margin-bottom: 30px;border-top: 1px dotted #EEEEEE;">' +
+        /*'        <ul class="layui-timeline" style="margin-top: 10px;padding-top: 15px;margin-bottom: 30px;border-top: 1px dotted #EEEEEE;">' +
         '            <li class="layui-timeline-item">' +
         '                <i class="layui-icon layui-timeline-axis">&#xe63f;</i>' +
         '                <div class="layui-timeline-content layui-text">' +
@@ -609,7 +609,7 @@ var template = {
         '                    <p>个人网站：<i class="fa fa-link"></i> <a href="https://wuwenbin.me">https://wuwenbin.me</p>' +
         '                </div>' +
         '            </li>' +
-        '        </ul>' +
+        '        </ul>' +*/
         '    </div>' +
         '</div>'
 };
